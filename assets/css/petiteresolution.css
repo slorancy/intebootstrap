@@ -1,0 +1,349 @@
+@import url(font-awesome.min.css);
+@import url(http: //netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px rgba(255, 255, 255, 0.20) solid;
+    width: 70%;
+}
+
+/* Display */
+
+.flexv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+height: 100%;}
+
+
+.flexh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;}
+
+.dinline {display: inline;}
+
+.alignl{ display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+width: 40%;}
+
+.alignr { display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+width: 60%;}
+
+/* Sections */
+
+.masthead {background-image: url(../img/masthead.jpg);
+    height: 750px;
+    width: 100%;}
+
+.box1 {width: 100%;
+height: 650px;}
+
+.features {
+    height: 700px; 
+    width: 70%;
+    margin: 0 auto;
+}
+
+.works {
+    width: 100%;
+    margin: 0;}
+
+.team {height: 780px;
+    width: 70%;
+    margin: 0 auto;}
+
+.clients { width: 100%;}
+
+.downloads {height: 300px; 
+    width: 100%;
+}
+
+footer {height: 250px; 
+    width: 100%;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+
+.container {
+  position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(232, 69, 69, 0.82);
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+    cursor: pointer;
+}
+
+.menu {
+    padding: 0;
+    margin: 0 0 0px 0;
+    display: inline;
+    line-height: 40px;
+}
+
+.menu li {
+    padding: 0;
+    margin: 0 0 0px 0;
+    display: inline;
+    line-height: 40px;
+
+}
+
+.menu li a {
+    padding: 0px 25px;
+    color: #fff;
+    display: inline;
+    text-decoration: none;
+    outline: none;
+}
+
+.menu li a:hover {
+    color: #e84545;
+}
+
+/* Titres */
+
+h1 {font-style: bold;
+   font-size: 68px;}
+h2 {}
+h3 {font-weight: 400;}
+h4 {font-weight: 300;}
+
+/* Font Style */
+
+.capitale { text-transform: uppercase;}
+.i {font-style: italic;}
+.bold {font-weight: bold;}
+.light {font-weight:300;}
+
+/* Text color */
+.txtcolor1 {color: #fff;}
+.txtcolor2 {color: #2d3033;}
+.txtcolor3 {color: #6c7279;}
+.txtcolor4 {color: #e84545;}
+
+/* Background color */
+.bgcolor1{background-color: #fff;}
+.bgcolor2{background-color: #2d3033}
+.bgcolor3 {background-color: #6c7279;}
+.bgcolor4{background-color: #e84545;}
+.bgcolor5 {background-color: #53354a}
+.bgcolor6 { background-color: #3a3e64;}
+
+/* Button */
+
+.button {
+    background-color: #e84545;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'raleway';
+    padding: 10px 10px 10px 10px;  
+    border: #e84545 solid 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 140px;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: #e84545 solid 1px;
+    color: #e84545;
+    font-size: 13px;
+    border-radius: 2px;
+    text-align: center;
+    font-family: 'raleway';
+    width: 140px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+/* Text-align */
+
+.tacenter {text-align: center;}
+.taleft { text-align: left;}
+.taright { text-align: right;}
+
+/* Fonts */
+
+.ffopensans {font-family: 'Open Sans', sans-serif;
+}
+.ffraleway {font-family: 'Raleway', sans-serif;}
+.ffcardo {font-family: 'Cardo', sans-serif;
+    font-style: italic;}
+
+
+/* Width */
+
+.w10 {width: 10px;}
+.w20 {width: 20px;}
+.w30 {width: 30px;}
+.w40 {width: 40px;}
+.w50 {width: 50px;}
+.w60 {width: 60px;}
+.w70 {width: 70px;}
+.w80 {width: 80px;}
+.w90 {width: 90px;}
+.w100 {width: 100px;}
+.w110 {width: 110px;}
+.w120 {width: 120px;}
+.w130 {width: 130px;}
+.w140 {width: 140px;}
+
+.moitie {width: 50%;}
+.tiers {width: 29%;}
+.quart {width: 25%;}
+
+
+/* height */
+
+.h10 {height: 10px;}
+.h20 {height: 20px;}
+.h30 {height: 30px;}
+.h40 {height: 40px;}
+.h50 {height: 50px;}
+.h60 {height: 60px;}
+.h70 {height: 70px;}
+.h80 {height: 80px;}
+.h90 {height: 90px;}
+.h100 {height: 100px;}
+.h110 {height: 110px;}
+.h120 {height: 120px;}
+.h130 {height: 130px;}
+.h140 {height: 140px;}
+
+
+
+
+
+
+/* Font-size */
+.fs12 {font-size: 12px;}
+.fs13 {font-size: 13px;}
+
+.fs14 {font-size: 14px;
+    line-height: 21px;}
+
+.fs22 {font-size: 22px;}
+.fs28 {font-size: 28px;}
+
+.fs36 {font-size: 36px;
+    line-height: 36px;}
+.fs60 {font-size: 60px;}
+
+
+
+
+/* Padding */
+.plauto{padding-left: auto;}
+.prauto{padding-right: auto;}
+
+.pt5 {padding-top: 5px;}
+.pr5 {padding-right: 5px;}
+.pb5 {padding-bottom: 5px;}
+.pl5 {padding-left: 5px;}
+.p15 {padding: 5px;}
+
+.pt10 {padding-top: 10px;}
+.pr10 {padding-right: 10px;}
+.pb10 {padding-bottom: 10px;}
+.pl10 {padding-left: 10px;}
+.p10 {padding: 10px;}
+
+.pt20 {padding-top: 20px;}
+.pr20 {padding-right: 20px;}
+.pb20 {padding-bottom: 20px;}
+.pl20 {padding-left: 20px;}
+.p20 {padding: 20px;}
+
+.p30 {padding: 30px;}
+.pt30 {padding-top: 30px;}
+.pr30 {padding-right: 30px;}
+.pb30 {padding-bottom: 30px;}
+.pl30 {padding-left: 30px;}
+
+
+.pt50 {padding-top: 50px;}
+.pr50 {padding-right: 50px;}
+.pb50 {padding-bottom: 50px;}
+.pl50 {padding-left: 50px;}
+.p50 {padding: 50px;}
+
+.p0 {padding: 0px;}
+
+/* Margin */
+.marginauto{margin: auto;}
+.m0 {margin: 0px;}
+
+
+.mt5 {margin-top: 5px;}
+.mr5 {margin-right: 5px;}
+.mb5 {margin-bottom: 5px;}
+.ml5 {margin-left: 5px;}
+.m15 {margin: 5px;}
+
+.mt10 {margin-top: 10px;}
+.mr10 {margin-right: 10px;}
+.mb10 {margin-bottom: 10px;}
+.ml10 {margin-left: 10px;}
+.m10 {margin: 10px;}
+
+.mt20 {margin-top: 20px;}
+.mr20 {margin-right: 20px;}
+.mb20 {margin-bottom: 20px;}
+.ml20 {margin-left: 20px;}
+.m20 {margin: 20px;}
+
+.m30 {margin: 30px;}
+.mt30 {margin-top: 30px;}
+.mr30 {margin-right: 30px;}
+.mb30 {margin-bottom: 30px;}
+.ml30 {margin-left: 30px;}
+
+
+.mt50 {margin-top: 50px;}
+.mr50 {margin-right: 50px;}
+.mb50 {margin-bottom: 50px;}
+.ml50 {margin-left: 50px;}
+.m50 {margin: 50px;}
+
+/* Border radius */
+
+.bradius2 {border-radius: 2px;}
+
